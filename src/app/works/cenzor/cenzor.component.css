@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container {
+    margin: 100px auto;
+    width: 50%;
+    height: 300px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.badWords {
+    color: tomato;
+    margin-left: 10px;
+}
+
+.typeWord {
+    width: 66%;
+    height: 35px;
+    border-radius: 3px;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+#add {
+    border: none;
+    width: 16%;
+    height: 35px;
+    cursor: pointer;
+    color: white;
+    background-color: orange;
+    border-radius: 2px;
+    transition-duration: 0.3s;
+    margin-right: 3px;
+}
+
+#add:hover {
+    background-color: sandybrown;
+    color: thistle;
+}
+
+#reset {
+    border: none;
+    width: 16%;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 2px;
+    color: whitesmoke;
+    background-color: tomato;
+    transition-duration: 0.3s;
+}
+
+#reset:hover {
+    background-color: salmon;
+    color: thistle;
+}
+
+#textarea {
+    width: 100%;
+    height: 135px;
+    margin-top: 10px;
+    padding: 10px 0 0 10px;
+    font-size: 15px;
+}
+
+#clickCenzor {
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: yellowgreen;
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    transition-duration: 0.3s;
+}
+
+#clickCenzor:hover {
+    background-color: limegreen;
+    color: lightslategrey;
+}

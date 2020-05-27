@@ -1,0 +1,51 @@
+.container {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+a {
+  width: 250px;
+  height: 250px;
+  text-decoration: none;
+  color: darkslategray;
+}
+
+.cenzorLink {
+  width: 250px;
+  height: 250px;
+  background-image: url(images/cenzor.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.userListLink {
+  width: 250px;
+  height: 250px;
+  background-image: url(images/userlist.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.taskListLink {
+  width: 250px;
+  height: 250px;
+  background-image: url(images/tasklist.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.smallbox {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  transition-property: transform;
+  transition-duration: 0.3s;
+}
+.smallbox:hover{
+  transform: scale(1.2);
+}

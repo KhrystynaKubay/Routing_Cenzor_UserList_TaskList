@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="worksPages">
+    <a [routerLink]="[ 'cenzor' ]" routerLinkActive="active">Cenzor</a>
+    <a [routerLink]="[ 'userlist' ]" routerLinkActive="active">User List</a>
+    <a [routerLink]="[ 'tasklist' ]" routerLinkActive="active">Task List</a>
+  </div>
+  <div class="pageHome">
+    <a [routerLink]="[ '/home' ]" routerLinkActive="active">Home</a>
+  </div>
+</div>
+
+
+<div class="content">
+  <router-outlet></router-outlet>
+</div>

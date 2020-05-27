@@ -1,0 +1,15 @@
+<main>
+  <div class="container">
+    <h3>Bad words: <span class="badWords">{{convertedCenzorWord}}</span></h3>
+    <form name="form">
+      <input [style.border]="isEmptyInput ? '1px solid red': ''" type="text" [(ngModel)]="addWord" name="addWord"
+        class="typeWord" placeholder={{placeholderAdd}}>
+      <input type="button" (click)="AddBadWord()" name="btnAdd" id="add" value="Add">
+      <input type="button" (click)="resetBtn()" name="resetBtn" id="reset" value="Reset">
+      <textarea [style.border]="isEmptyTextArea ? '1px solid red': ''" [(ngModel)]="textarea" name="textarea"
+        id="textarea" placeholder="{{placeholderTextArea}}"></textarea>
+      <input type="button" (click)="cenzorBtn()" name="cenzor" id="clickCenzor" value="Cenzor">
+    </form>
+  </div>
+
+</main>
